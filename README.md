@@ -51,8 +51,8 @@ draw(out)
 ### 2. Neural Net Implementation
 
 ```py
-from nn import DNN  # Dense Neural Network
-from losses import binary_cross_entropy
+from micronets.nn import DNN  # Dense Neural Network
+from micronets.losses import binary_cross_entropy
 
 
 xs = [
@@ -64,7 +64,7 @@ xs = [
 
 ys = [1.0, 0.0, 1.0, 0.0]
 
-model = DNN(inpu3, [2,2,1], ['relu', 'relu', 'sigmoid'])  # creates model architecture
+model = DNN(input_features=3, layers=[2,2,1], activations=['relu', 'relu', 'sigmoid'])  # creates model architecture
 
 history, graph = model.train(X=xs, Y=ys, iterations=500, loss_function=binary_cross_entropy, learning_rate=0.1)  # trains network and stores loss function history and computational graph
 
@@ -75,9 +75,14 @@ predictions = model.predict([  # outputs predictions
 
 model.plot(history)  # plots learning curve
 ```
+#### Output :
 
-Additionally the `playground.ipynb` file demonstrates functionality through a more complex example along with its outputs.
+[image placeholder graph2]
+
 <br>
+<br>
+<br>
+Additionally the `playground.ipynb` file demonstrates functionality through a more complex example along with its outputs.
 <br>
 
 Lastly, a big thank you to [Andrej Karpathy](https://github.com/karpathy) for inspiring this project :)
