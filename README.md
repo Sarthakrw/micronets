@@ -12,7 +12,7 @@ pip install micronets
 
 ## Usage
 
-### 1. Building Computational Graphs
+### 1. Building Expressions Through Computational Graphs
 
 ```py
 from micronets.autograd_engine import Value
