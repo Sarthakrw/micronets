@@ -1,6 +1,6 @@
 # Micronets
 
-Micronets is a python framework for the efficient yet simple implementation and training of deep neural networks. The project consists of a small auto-gradient engine module which implements back propagation through a DAG (Directed Acyclic Graph) and a module resembling the PyTorch/Tensorflow APIs to create and train dense neural networks on top of it.
+Micronets is a python framework for the simple and efficient implementation and training of deep neural networks. The project consists of a small auto-gradient engine module which implements back propagation through a DAG (Directed Acyclic Graph) and a module resembling the PyTorch/Tensorflow APIs to create and train dense neural networks on top of it.
 
 The package also provides additional functionalities such as plotting of the training curve, make predictions and visualisation of computational graphs after training
 
