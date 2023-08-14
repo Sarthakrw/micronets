@@ -79,9 +79,11 @@ model.plot(history)  # plots learning curve
 ![learning curve](graph2.png)
 
 <br>
+
 Additionally the `playground.ipynb` file demonstrates functionality through a more complex example along with its outputs.
 <br>
 <br>
+
 Lastly, a big thank you to [Andrej Karpathy](https://github.com/karpathy) for inspiring this project :)
 
 ## License
