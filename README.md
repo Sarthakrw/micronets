@@ -54,7 +54,6 @@ draw(output)
 from micronets.nn import DNN  # Dense Neural Network
 from micronets.losses import binary_cross_entropy
 
-
 xs = [
     [2.0, 3.0, -1.0],
     [3.0, -1.0, 0.5],
