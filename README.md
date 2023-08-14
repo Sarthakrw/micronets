@@ -44,7 +44,7 @@ draw(out)
 ```
 #### Output :
 
-[image placeholder graph1]
+![computation graph](graph1.png)
 <br>
 <br>
 
@@ -76,15 +76,12 @@ predictions = model.predict([  # outputs predictions
 model.plot(history)  # plots learning curve
 ```
 #### Output :
+![learning curve](graph2.png)
 
-[image placeholder graph2]
-
-<br>
-<br>
 <br>
 Additionally the `playground.ipynb` file demonstrates functionality through a more complex example along with its outputs.
 <br>
-
+<br>
 Lastly, a big thank you to [Andrej Karpathy](https://github.com/karpathy) for inspiring this project :)
 
 ## License
