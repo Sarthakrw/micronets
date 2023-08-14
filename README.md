@@ -36,11 +36,11 @@ x1w1x2w2 = x1w1+x2w2; x1w1x2w2.label='x1w1 + x2w2'
 
 z = x1w1x2w2 + b; z.label='z'
 
-output = z.tanh(); out.label='output'
+output = z.tanh(); output.label='output'
 
 output.backward()
 
-draw(out)
+draw(output)
 ```
 #### Output :
 
