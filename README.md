@@ -83,7 +83,6 @@ Additionally the `playground.ipynb` file demonstrates functionality through a mo
 <br>
 <br>
 
-Lastly, a big thank you to [Andrej Karpathy](https://github.com/karpathy) for inspiring this project :)
 
 ## License
 
